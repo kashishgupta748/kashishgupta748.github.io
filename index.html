@@ -161,7 +161,11 @@ h2.section-title em { font-style: italic; color: var(--terra); }
 }
 .nav-dl:hover { background: var(--terra-d); transform: translateY(-1px); box-shadow: 0 4px 20px rgba(168,94,62,.28); }
 @media (max-width: 700px) {
-  .nav-links { display: none; }
+  /* Updated to flex-wrap instead of "display: none" so mobile users still get the navigation tab bar */
+  .nav-inner { flex-wrap: wrap; justify-content: center; gap: 12px; padding: 14px var(--gutter); }
+  .nav-links { justify-content: center; font-size: 12px; }
+  .nav-dl { display: none; }
+}
 }
 @media (max-width: 480px) {
   .nav-dl { display: none; }
@@ -640,7 +644,7 @@ footer {
       <div class="hero-text">
         <div class="hero-pill reveal">
           <span class="hero-pill-dot"></span>
-          Available on iPhone
+          Available on iPhone, iPad and macOS
         </div>
         <h1 class="reveal d1">Turn images into<br><em>crochet charts.</em></h1>
         <p class="hero-desc reveal d2">Converts images into structured stitch grids with focus mode and row tracking — so you can follow any pattern without losing your place.</p>
@@ -652,7 +656,7 @@ footer {
               <strong>App Store</strong>
             </div>
           </a>
-          <span class="hero-avail">Available on iPhone</span>
+          <span class="hero-avail">Available on iPhone, iPad and macOS</span>
         </div>
       </div>
       <div class="hero-phone reveal d2">
