@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Support — StitchGrid</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+
+<style>
+:root {
+  --cream:#f9f8f6;--terra:#c97b5a;--terra-d:#a85e3e;
+  --ink-full:#181614;--ink2:#3a3733;--ink3:#908b86;
+  --white:#ffffff;--divider:rgba(0,0,0,.07);--blush:#e5d0bc;
+  --font-serif:'Playfair Display',Georgia,serif;
+  --font-sans:'DM Sans',-apple-system,sans-serif;
+  --gutter:clamp(20px,5vw,64px);--max-w:1060px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:var(--font-sans);background:var(--cream);color:var(--ink-full);-webkit-font-smoothing:antialiased;}
+a{text-decoration:none;color:inherit;}
+.container{width:100%;max-width:720px;margin:0 auto;padding:0 var(--gutter);}
+nav{position:sticky;top:0;z-index:999;background:rgba(249,248,246,.90);backdrop-filter:blur(24px);border-bottom:1px solid var(--divider);}
+.nav-inner{max-width:var(--max-w);margin:0 auto;padding:18px var(--gutter);display:flex;align-items:center;justify-content:space-between;}
+.nav-logo{font-family:var(--font-serif);font-size:20px;color:var(--ink-full);}
+.nav-logo span{color:var(--terra);}
+.nav-back{font-size:14px;font-weight:500;color:var(--ink3);display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:100px;border:1px solid var(--divider);transition:color .2s,border-color .2s;}
+.nav-back:hover{color:var(--terra);border-color:var(--terra);}
+.page-hero{padding:72px 0 52px;border-bottom:1px solid var(--divider);margin-bottom:64px;}
+.eyebrow{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--terra);margin-bottom:18px;}
+.page-hero h1{font-family:var(--font-serif);font-size:clamp(36px,5vw,54px);line-height:1.1;letter-spacing:-.02em;color:var(--ink-full);margin-bottom:14px;}
+.page-hero .meta{font-size:13px;color:var(--ink3);}
+.legal-body{padding-bottom:100px;}
+.ls{margin-bottom:56px;}
+.ls h2{font-family:var(--font-serif);font-size:22px;color:var(--ink-full);margin-bottom:16px;letter-spacing:-.01em;}
+.ls h3{font-size:15px;font-weight:600;color:var(--ink2);margin:22px 0 8px;}
+.ls p{font-size:15px;line-height:1.8;color:var(--ink3);font-weight:300;margin-bottom:12px;}
+.ls ul{margin:0 0 12px 18px;}
+.ls li{font-size:15px;line-height:1.8;color:var(--ink3);font-weight:300;margin-bottom:6px;}
+.ls a{color:var(--terra);font-weight:500;}
+hr{border:none;border-top:1px solid var(--divider);margin:48px 0;}
+.highlight{background:var(--white);border-left:3px solid var(--terra);border-radius:0 14px 14px 0;padding:20px 24px;margin:28px 0;}
+.highlight p{margin:0;font-weight:400;color:var(--ink2);}
+.callout{background:linear-gradient(135deg,rgba(201,123,90,.08),rgba(201,123,90,.04));border:1px solid rgba(201,123,90,.18);border-radius:16px;padding:24px 28px;margin:28px 0;}
+.callout-title{font-size:14px;font-weight:700;color:var(--terra);margin-bottom:8px;letter-spacing:.04em;}
+.callout p{margin:0;font-size:14px;color:var(--ink3);line-height:1.7;font-weight:300;}
+footer{background:var(--ink-full);padding:40px 0;text-align:center;}
+.footer-logo{font-family:var(--font-serif);font-size:18px;color:var(--white);margin-bottom:14px;}
+.footer-logo span{color:var(--blush);}
+.footer-links{display:flex;justify-content:center;gap:24px;margin-bottom:12px;flex-wrap:wrap;}
+.footer-links a{font-size:13px;color:rgba(255,255,255,.4);transition:color .2s;}
+.footer-links a:hover{color:var(--white);}
+.footer-copy{font-size:12px;color:rgba(255,255,255,.25);}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">stitch<span>Grid</span></a>
+    <a href="index.html" class="nav-back">← Back to home</a>
+  </div>
+</nav>
+<div class="container">
+  <div class="page-hero">
+    <span class="eyebrow">Help</span>
+    <h1>How can we help?</h1>
+    <p class="meta">We typically reply within 1–2 business days</p>
+  </div>
+  <div class="legal-body">
+<style>
+.support-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:56px;}
+.s-card{background:var(--white);border-radius:20px;padding:32px;border:1px solid var(--divider);text-align:center;transition:transform .3s,box-shadow .3s;}
+.s-card:hover{transform:translateY(-3px);box-shadow:0 8px 32px rgba(0,0,0,.08);}
+.s-icon{font-size:32px;margin-bottom:14px;display:block;}
+.s-card h3{font-size:16px;font-weight:600;color:var(--ink-full);margin-bottom:6px;}
+.s-card p{font-size:13px;color:var(--ink3);line-height:1.6;font-weight:300;margin-bottom:18px;}
+.s-btn{display:inline-block;background:var(--ink-full);color:var(--white);padding:9px 22px;border-radius:100px;font-size:13px;font-weight:600;transition:background .2s;}
+.s-btn:hover{background:var(--terra-d);}
+.s-btn.outline{background:transparent;color:var(--ink-full);border:1px solid var(--divider);}
+.s-btn.outline:hover{background:rgba(0,0,0,.04);}
+.steps-list{display:flex;flex-direction:column;gap:22px;}
+.step-row{display:flex;gap:16px;align-items:flex-start;}
+.step-circle{width:34px;height:34px;flex-shrink:0;border-radius:50%;background:rgba(201,123,90,.12);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:var(--terra);}
+.step-row h4{font-size:14px;font-weight:600;color:var(--ink-full);margin-bottom:3px;}
+.step-row p{font-size:13px;color:var(--ink3);line-height:1.6;font-weight:300;}
+.dark-card{background:var(--ink-full);border-radius:24px;padding:40px;margin-bottom:56px;color:var(--white);}
+.dark-card h3{font-family:var(--font-serif);font-size:24px;margin-bottom:8px;line-height:1.2;}
+.dark-card p{font-size:14px;color:rgba(255,255,255,.5);line-height:1.65;font-weight:300;margin-bottom:24px;}
+.email-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.1);color:var(--white);padding:11px 20px;border-radius:100px;font-size:14px;font-weight:500;border:1px solid rgba(255,255,255,.14);transition:background .2s;}
+.email-btn:hover{background:rgba(255,255,255,.18);}
+.faq-list{display:flex;flex-direction:column;gap:2px;}
+.faq-item{border-radius:14px;overflow:hidden;border:1px solid var(--divider);margin-bottom:2px;}
+.faq-q{width:100%;background:none;border:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;padding:18px 20px;gap:16px;font-family:var(--font-sans);font-size:14px;font-weight:500;color:var(--ink-full);text-align:left;transition:background .2s;}
+.faq-q:hover{background:rgba(0,0,0,.03);}
+.faq-chevron{font-size:18px;color:var(--ink3);transition:transform .3s;flex-shrink:0;}
+.faq-item.open .faq-chevron{transform:rotate(45deg);}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s cubic-bezier(.22,1,.36,1);}
+.faq-item.open .faq-a{max-height:300px;}
+.faq-a-inner{margin:0 20px;padding:14px 0 20px;font-size:13px;color:var(--ink3);line-height:1.7;font-weight:300;border-top:1px solid var(--divider);}
+@media(max-width:580px){.support-grid{grid-template-columns:1fr;}}
+</style>
+
+<div class="dark-card">
+  <h3>Get in touch</h3>
+  <p>For any queries, help or support — reach out and we'll get back to you within 1–2 business days.</p>
+  <a href="mailto:support@stitchgrid.app" class="email-btn">✉️ &nbsp;support@stitchgrid.app</a>
+</div>
+
+<div class="ls">
+<h2>Getting Started</h2>
+<p style="font-size:15px;color:var(--ink3);font-weight:300;margin-bottom:28px;">New to StitchGrid? Here's how to create your first stitch chart.</p>
+<div class="steps-list">
+  <div class="step-row">
+    <div class="step-circle">1</div>
+    <div><h4>Upload or generate an image</h4><p>Choose a photo from your library, or type a description to let AI create one for you.</p></div>
+  </div>
+  <div class="step-row">
+    <div class="step-circle">2</div>
+    <div><h4>Set your grid size</h4><p>Choose from 10×10 to 50×50 to match your project's detail and yarn weight.</p></div>
+  </div>
+  <div class="step-row">
+    <div class="step-circle">3</div>
+    <div><h4>Generate the chart</h4><p>Tap "Generate Stitch Chart" and your colour-mapped chart appears instantly.</p></div>
+  </div>
+  <div class="step-row">
+    <div class="step-circle">4</div>
+    <div><h4>Follow with Focus Mode</h4><p>Activate Focus Mode to highlight your current row and track progress as you stitch.</p></div>
+  </div>
+</div>
+</div>
+
+<hr/>
+
+<div class="ls">
+<h2>Frequently Asked Questions</h2>
+<div class="faq-list">
+  <div class="faq-item">
+    <button class="faq-q">What image formats can I upload? <span class="faq-chevron">+</span></button>
+    <div class="faq-a"><div class="faq-a-inner">StitchGrid accepts JPEG, PNG, HEIC, and most standard formats from your iPhone photo library. Clear images with a distinct subject work best.</div></div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-q">What grid sizes are available? <span class="faq-chevron">+</span></button>
+    <div class="faq-a"><div class="faq-a-inner">You can choose from 10×10 to 50×50. Smaller grids suit simple motifs; larger ones work for detailed projects.</div></div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-q">How does Focus Mode work? <span class="faq-chevron">+</span></button>
+    <div class="faq-a"><div class="faq-a-inner">Focus Mode highlights your current row while dimming all others. Tap any row number to activate it, and use the row selector to jump to any position in the chart.</div></div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-q">Can I use the app offline? <span class="faq-chevron">+</span></button>
+    <div class="faq-a"><div class="faq-a-inner">Saved stitch charts are viewable offline. Generating charts and using the AI generator both require an internet connection.</div></div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-q">How do I request a refund? <span class="faq-chevron">+</span></button>
+    <div class="faq-a"><div class="faq-a-inner">All purchases are handled by Apple. Visit reportaproblem.apple.com and sign in with your Apple ID to request a refund.</div></div>
+  </div>
+</div>
+</div>
+
+<script>
+document.querySelectorAll('.faq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.closest('.faq-item');
+    const open = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!open) item.classList.add('open');
+  });
+});
+</script>
+</div>
+</div>
+<footer>
+  <div class="footer-logo">stitch<span>Grid</span></div>
+  <div class="footer-links"><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a></div>
+  <p class="footer-copy">© 2025 StitchGrid. All rights reserved.</p>
+</footer>
+</body>
+</html>
